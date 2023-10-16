@@ -3,7 +3,7 @@ import React from 'react'
 const Elections = () => {
   return (
     <div>
-      Elections
+      Elections Today
     </div>
   )
 }

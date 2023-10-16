@@ -13,12 +13,11 @@ export const Header = () => {
     <>
       <header className='header'>
 
-      <div className='WebsiteNameAlignment'>
-            <h1 className="websiteTextColor">NEWS WEBSITE</h1>
-      </div>
+        <div className='WebsiteNameAlignment'>
+          <h1 className="websiteTextColor">NEWS WEBSITE</h1>
+        </div>
 
-        {/* <div className='scontainer flex'>    */}
-        <div className='navbarAlignment'>   
+        <div className='navbarAlignment'>
           <nav>
             <ul>
               {nav.map((link) => (
@@ -29,9 +28,6 @@ export const Header = () => {
             </ul>
           </nav>
         </div>
-          {/* <div className='account flexCenter'>
-            <User />
-          </div> */}
       </header>
     </>
   )

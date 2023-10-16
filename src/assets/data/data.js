@@ -4,21 +4,13 @@ export const nav = [
     text: "होम",
     url: "/",
   },
-  // {
-  //   id: 2,
-  //   text: "चुनाव 2023",
-  //   url: "/worldcup",
-  // },
+
   {
     id: 3,
     text: "चुनाव 2023",
     url: "/elections",
   },
-  // {
-  //   id: 4,
-  //   text: "WORLD",
-  //   url: "/world",
-  // },
+
   {
     id: 5,
     text: "स्पोर्ट्स",
@@ -27,12 +19,12 @@ export const nav = [
   {
     id: 6,
     text: "एजुकेशन",
-    url: "/tech",
+    url: "/education",
   },
   {
     id: 7,
     text: "वायरल न्यूज़",
-    url: "/explainer",
+    url: "/viralnews",
   },
   // {
   //   id: 8,
